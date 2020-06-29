@@ -1,10 +1,13 @@
-function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 5,
-        center: {lat: 7.1351824, lng: -73.11},
-        mapTypeId: 'terrain'
+$(function(){
+    $(".typed").typed({
+        strings: ["Developer", "Engineer", "Architect"],
+        typeSpeed: 30,
+        startDelay: 1200,
+        backSpeed: 20,
+        backDelay: 2000,
+        loop: true,
+        loopCount: false,
+        showCursor: true,
+        cursorChar: "|",
     });
-
-
-    workArea.setMap(map);
-}
+});
