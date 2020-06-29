@@ -1,14 +1,14 @@
 @font-face {
     font-family: "AveriaSerif-Regular";
-    src: url(fonts/AveriaSerif-Regular.ttf) format("truetype");
+    src: url('./fonts/AveriaSerif-Regular.ttf') format("truetype");
   }
   @font-face {
       font-family: "CheesePizza";
-      src: url(fonts/CheesePizza.ttf) format("truetype");
+      src: url('./fonts/CheesePizza.ttf') format("truetype");
   }
   @font-face {
     font-family: "BebasNeue";
-    src: url(fonts/BebasNeue.otf) format("opentype");
+    src: url('./fonts/BebasNeue.otf') format("opentype");
   } 
   body {
       font-family: AveriaSerif-Regular, Palatino, sans-serif;
@@ -100,14 +100,14 @@
       opacity: 0.8;
       border-width: 2px;
   }
-  .submit {
+  #submit {
       font-family: BebasNeue, AveriaSerif-Regular, â€˜Palatino Linotypeâ€™, â€˜Book Antiquaâ€™, Palatino, serif;
       font-size: 1.2em;
       letter-spacing: 0.4em;
       background-color: #8dc73f;
       transition:1s;
   }
-  .submit:hover {
+  #submit:hover {
       background-color: #00aef0;
       font-weight: bold;
   }

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <!--Thanks for reading my code -->
         <title>Alvaro Software Developer Resume</title>
         <!-- UTF-8 as my character set -->
         <meta charset="UTF-8">
+        <!-- Set language to english-->
+    
         <!-- Set the Viewport for good mobile behavior-->
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <!-- Info for web scraper bots -->
@@ -13,14 +15,14 @@
         <meta name="author" content="Alvaro Ruiz">
         <meta name="robots" content="all">
         <!--  Bootstrap -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-push-2">
     
-                    <header role="banner">
+                    <header >
                         <h1 id="headline">Alvaro Ruiz</h1>
                         <h2 id="sub-headline">
                             <span class="software_text">Software</span>
@@ -54,10 +56,10 @@
                             <li>How to write efficient queries in both MySQL and PostgreSQL</li>
                             <li>How to design user friendly UX with CSS3, Bootstrap, and SASS</li>
                             <li>How to do awesome things with the HTML5 Canvas Element</li>
-                            <li>APIs such as Google Maps, Youtube, Facebook, Amazon MWS, eBay, Etsy, Walmart, and several more</li>
+                            <li>APIs such as Google Maps, Youtube, Facebook, AWS, eBay, Etsy, Walmart, and several more</li>
                             <li>How to use a feature/dev/master branch workflow in Git</li>
                             <li>How to configure Apache, setup CRONs, manage packages, exit VIM, and other Linux Sys Admin tasks</li>
-                            <li>Dozens of Sublime Text shortcuts</li>
+                            <li>Dozens of Visual Studio Code shortcuts</li>
                             <li>When WordPress is the right tool for the job</li>
                         </ul>
                     </section>
@@ -72,14 +74,14 @@
                         <div class="built-item row">
                             <div class="col-md-7">
                                 <a target="_blank" href="">
-                                    <img class="img-responsive img-rounded" alt="" src="images/zzz.png"/>
+                                    <img class="img-responsive img-rounded w-75" alt="" src="images/portfolio-powstore.png"/>
                                 </a>
                             </div>
-                            <div class="col-md-5">
-                                <h4>project title</h4>
-                                <p>zzz</p>
+                            <div class="col-md-5 mt-4">
+                                <h4 class="text-primary">Powerlifting Store</h4>
+                                <p>A website using responsive design principles, CSS, Bootstrap 4 and Bootstrap Carousel</p>
                                 <p>
-                                    <a target="_blank" href="">View the site yourself</a>
+                                    <a target="_blank" href="https://rawcdn.githack.com/alvarorf/OnlineShop-Capstone/fca301d25242751c94cb3d1e1fa7ea9bb144affd/index.html">View the site yourself</a>
                                 </p>
                             </div>
                         </div>
@@ -176,7 +178,7 @@
     
                     <hr>
     
-                    <section id="pdf">
+                    <section class="pdf">
                         <div class="row">
                             <div class="col-md-8 col-md-push-2">
                                 <h3>Do I Have A GitHub?</h3>
@@ -187,7 +189,7 @@
     
                     <hr>
     
-                    <section id="pdf">
+                    <section class="pdf">
                         <div class="row">
                             <div class="col-md-8 col-md-push-2">
                                 <h3>Do I Have A PDF Resume?</h3>
@@ -197,13 +199,12 @@
                     </section>
     
                     <hr>
-    
                     <section id="where">
                         <div class="row">
                             <div class="col-md-8 col-md-push-2">
                                 <h3>Where Am I?</h3>
                                 <!--<div id="map"></div>-->
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63344.93804202345!2d-73.16799747451634!3d7.119204683877649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68157af751c0ed%3A0x75a0e4551148c36c!2sBucaramanga%2C%20Departamento%20de%20Santander!5e0!3m2!1sde!2sco!4v1593459179877!5m2!1sde!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63344.93804202345!2d-73.16799747451634!3d7.119204683877649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68157af751c0ed%3A0x75a0e4551148c36c!2sBucaramanga%2C%20Departamento%20de%20Santander!5e0!3m2!1sde!2sco!4v1593459179877!5m2!1sde!2sco" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                             </div>
                         </div>
                     </section>
@@ -231,7 +232,7 @@
                                     <label>Your Message</label>
                                     <textarea class="input form-control" name="message"></textarea>
     
-                                    <input class="input submit form-control" type="submit" value="Send">
+                                    <input id="submit" class="input form-control" type="submit" value="Send">
                                 </form>
                             </div>
                         </div>
@@ -254,15 +255,15 @@
         </div>
     
     	<!-- jQuery, dependency for Typed.js -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 
 	<!-- Typed.js gives this page a nice touch -->
-    <script type="text/javascript" src="js/typed.min.js"></script>
+    <script src="js/typed.min.js"></script>
     
     	<!-- My script, typed.js init -->
-	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/script.js"></script>
 
-    </body>
+    
 
     </body>
 </html>
