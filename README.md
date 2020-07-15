@@ -1,4 +1,4 @@
-To see the live version, please visit: https://alvarorf.github.com/cv
+To see the live version, please visit: https://alvarorf.github.io/cv
 
 
 
